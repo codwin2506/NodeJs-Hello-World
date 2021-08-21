@@ -1,17 +1,10 @@
-# Node Hello World
+# simple-node-js-react-npm-app
 
-Simple node.js app that servers "hello world"
+The repository contains a simple Node.js and React application which generates
+a web page with the content "Welcome to React" and is accompanied by a test to
+check that the application renders satisfactorily.
 
-Great for testing simple deployments to the cloud
-
-## Create a .tgz file
-
-`npm pack`
-
-## Run It
-
-`npm start`
-
-### Ports Used:
-`http://localhost:3000
-http://localhost:3001`
+The `jenkins` directory contains an example of the `Jenkinsfile` (i.e. Pipeline)
+you'll be creating yourself during the tutorial and the `scripts` subdirectory
+contains shell scripts with commands that are executed when Jenkins processes
+the "Test" and "Deliver" stages of your Pipeline.
